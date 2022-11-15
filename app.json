@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "sensorApp",
-    "slug": "sensorApp",
+    "slug": "sensorapp",
+    "owner": "rexcleaver90",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rexcleaver90.sensorapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rexcleaver90.sensorapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "94888e62-0391-4a7a-bcbb-e94ded77d7be"
+      }
     }
   }
 }
